@@ -145,6 +145,7 @@ export default PaperInput.extend({
 		'showMaskOnFocus',
 		'showMaskOnHover',
 		'clearIncomplete',
+    'maskPrefix',
 		function() {
 			once(this, 'updateMask');
 		}
